@@ -146,10 +146,10 @@ section {
 }
 
 .section2 .section2-content .user-count {
-  width: 70%;
+  width: 75%;
   display: flex;
   justify-content: space-between;
-  gap: 158px;
+  gap: 10px;
   /* background: #000; */
 }
 .section2 .section2-content .user-count div {
