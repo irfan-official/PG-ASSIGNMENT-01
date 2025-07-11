@@ -365,3 +365,64 @@ textarea {
   width: 100%;
   padding: 1rem 0;
 }
+
+.footer .footer-bottom {
+  width: 100%;
+  height: 438px;
+  background-color: FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.footer .footer-bottom .bottom-container {
+  width: 531px;
+  height: 221px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  /* background: #9a9a9a48; */
+}
+
+.btm-message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  height: 90%;
+  /* background: #000; */
+}
+
+.btm-message .bottom-logo {
+  font-weight: 800;
+  font-family: "Inter", sans-serif;
+  color: #4e47ff;
+  font-size: 100px;
+}
+
+.btm-message .text {
+  color: #8987a1;
+  font-size: 16px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
+.direction {
+  display: flex;
+  width: 90%;
+  justify-content: space-evenly;
+}
+
+.direction li {
+  list-style: none;
+}
+
+.direction li a {
+  color: #8987a1;
+  font-size: 16px;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+}
