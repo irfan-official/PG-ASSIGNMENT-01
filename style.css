@@ -31,6 +31,8 @@ header {
 .logo {
   color: #4e47ff;
   font-size: 3vmax;
+  font-family: "Inter", sans-serif;
+  font-weight: bolder;
 }
 
 .blue-btn {
@@ -296,13 +298,18 @@ main .section4 {
   border-radius: 48px;
 }
 
-.footer {
+footer {
   width: 100%;
   height: 100%;
 }
 
 #Message {
   resize: none;
+}
+
+#Message,
+#Name,
+#Email {
   outline: none;
 }
 
