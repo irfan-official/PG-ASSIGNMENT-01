@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
 }
 
 html,
@@ -36,7 +39,7 @@ header {
   color: #ffffff;
   border-radius: 0.5vmax;
   border: none;
-  font: bold;
+  font-weight: bold;
   font-size: 1.7vmin;
 }
 
@@ -44,23 +47,133 @@ header {
   width: 100%;
   height: calc(100% - 151px);
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+}
+
+.banner-content {
+  width: 80%;
+  /* background: #00000043; */
+  display: flex;
+  margin: 0 0;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   gap: 37px;
+  padding: 0 2vmax;
 }
 .banner-title {
-  font-size: 3vmax;
+  width: 85%;
+  font-size: 4vmax;
   text-align: center;
-  padding: 0 5vmax;
+  /* background: green; */
 }
 
-.banner-btn {
-  padding: 12px 36px;
-  color: #ffffff;
-  background-color: #4e47ff;
-  border-radius: 10px;
-  border: none;
-  font: bold;
+main {
+  width: 100%;
+  height: 100%;
 }
 
+section {
+  width: 80%;
+  min-height: 328px;
+  /* background: #00000078; */
+  margin: 0 auto;
+}
+
+.section1,
+.section2 {
+  margin-top: 116px;
+}
+
+.section3,
+.section4 {
+  margin-top: 137px;
+}
+
+.section1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section1 .right {
+  width: 30%;
+  height: 328px;
+  /* height: 100%; */
+  background-image: url(./Assets/wc-mini.png);
+  border-radius: 48px;
+  overflow: visible;
+}
+
+.section1 .left {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+
+.section1 .left h2 {
+  font-weight: bold;
+  color: #252432;
+  font-size: 42px;
+  font-family: "Inter", sans-serif;
+}
+.section1 .left p {
+  color: #252432;
+  font-size: 24px;
+}
+
+.section2 {
+  height: 306px;
+  background-color: rgba(78, 71, 255, 0.1);
+  border-radius: 24px;
+  padding: 50px 80px;
+}
+
+.section2 .section2-content h2 {
+  text-align: center;
+  color: #252432;
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.section2 .section2-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.section2 .section2-content .user-count {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  gap: 158px;
+  /* background: #000; */
+}
+.section2 .section2-content .user-count div {
+  width: 180px;
+  height: 121px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section2 .section2-content .user-count div span {
+  color: #4e47ff;
+  font-size: 80px;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+}
+.section2 .section2-content .user-count div p {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+}
+
+.section2 .section2-content .user-count footer {
+  width: 100%;
+  height: 100%;
+}
