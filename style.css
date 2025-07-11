@@ -235,6 +235,7 @@ section {
   display: flex;
   justify-content: space-between;
   /* background-color: #4e47ff; */
+
 }
 
 .user-image {
@@ -243,6 +244,7 @@ section {
   background-image: url(./Assets/avatar.png);
   background-position: center;
   border-radius: 50%;
+
 }
 
 .user-info {
@@ -250,6 +252,7 @@ section {
   width: calc(100% - 50px);
   display: flex;
   flex-direction: column;
+
 }
 
 .user-info .user-name {
@@ -257,18 +260,21 @@ section {
   font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 700px;
+
 }
 
 .user-info .date {
   color: #b3b3b3;
   font-family: "Inter", sans-serif;
   font-size: 16px;
+
 }
 
 .section4 {
   padding: 71px 150px;
   border-radius: 14px;
   background-color: #ffffff;
+
 }
 
 .section4 .section4-container {
@@ -277,26 +283,31 @@ section {
   justify-content: space-between;
   align-items: center;
   gap: 20px;
+
 }
 
 .section4-container span {
   color: black;
   font-weight: bold;
   font-size: 50px;
+
 }
 
 .section4-container p {
   color: rgba(0, 0, 0, 0.5);
   font-size: 16px;
+
 }
 
 .section4-container img {
   width: 840px;
   height: 364.77px;
   border-radius: 48px;
+
 }
 
 .footer {
   width: 100%;
   height: 100%;
+  
 }
